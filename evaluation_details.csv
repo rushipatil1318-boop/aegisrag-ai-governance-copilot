@@ -1,0 +1,11 @@
+question_id,question,recall_at_k,reciprocal_rank,answer_keyword_coverage,citation_coverage,confidence,latency_ms,retrieved_sources
+q01,What is required from the risk-management process for a high-risk AI system?,1.0,1.0,1.0,1.0,0.8277,2.32,"['eu_article_9', 'eu_article_9', 'eu_article_6_annex_iii', 'eu_articles_11_12', 'nist_core']"
+q02,Why can an AI system that ranks job applicants be classified as high-risk?,1.0,1.0,0.6667,1.0,0.7908,1.36,"['eu_article_6_annex_iii', 'eu_article_6_annex_iii', 'eu_article_9', 'eu_article_9', 'nist_govern']"
+q03,Which data-governance controls matter for training a high-risk AI model?,1.0,1.0,0.6667,1.0,0.8496,1.42,"['eu_article_10', 'eu_article_10', 'nist_govern', 'nist_genai_profile', 'eu_article_15']"
+q04,What should human oversight allow a person to do?,1.0,1.0,0.3333,1.0,0.8197,1.13,"['eu_articles_13_14', 'eu_articles_13_14', 'eu_articles_26_27', 'eu_articles_26_27', 'eu_article_50']"
+q05,What transparency duties may apply when a chatbot interacts with customers?,1.0,1.0,1.0,1.0,0.8395,1.18,"['eu_article_50', 'eu_article_50', 'eu_overview', 'eu_articles_26_27', 'eu_articles_13_14']"
+q06,How does the NIST AI RMF organise AI risk management activities?,1.0,1.0,0.75,1.0,0.8091,1.24,"['nist_core', 'eu_article_9', 'nist_genai_profile', 'nist_govern', 'eu_article_9']"
+q07,What evidence should an AI evaluation and measurement plan contain?,1.0,1.0,0.3333,1.0,0.857,1.33,"['nist_measure', 'nist_genai_profile', 'nist_map', 'eu_article_50', 'nist_govern']"
+q08,Which risks should a team test in a retrieval-augmented generative AI application?,1.0,1.0,0.6667,1.0,0.8205,1.23,"['nist_genai_profile', 'eu_articles_26_27', 'nist_map', 'nist_core', 'nist_measure']"
+q09,Why are technical documentation and automatic event logs important?,1.0,1.0,0.6667,1.0,0.7881,1.48,"['eu_articles_11_12', 'eu_articles_11_12', 'eu_articles_11_12', 'eu_articles_26_27', 'nist_measure']"
+q10,How should an organisation respond after identifying and measuring an AI risk?,1.0,1.0,0.6667,1.0,0.8421,1.49,"['nist_manage', 'nist_core', 'nist_map', 'nist_measure', 'eu_article_9']"

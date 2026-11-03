@@ -1,0 +1,70 @@
+{
+  "system_name": "TalentMatch Candidate Ranking Assistant",
+  "risk_level": "likely high-risk",
+  "confidence": 0.78,
+  "triggers": [
+    "employment, worker management, or access to self-employment"
+  ],
+  "likely_obligations": [
+    "Risk management throughout the AI system lifecycle",
+    "Data and data-governance controls",
+    "Technical documentation and automatic logging",
+    "Transparency and instructions for deployers",
+    "Effective human oversight",
+    "Accuracy, robustness, and cybersecurity controls",
+    "Post-market monitoring and incident management"
+  ],
+  "control_gaps": [
+    "Document a continuous AI risk-management process.",
+    "Establish data quality, provenance, representativeness, and bias controls.",
+    "Enable traceable event logging and retain records under an approved policy.",
+    "Define and test accuracy, robustness, and cybersecurity thresholds.",
+    "Operate post-deployment monitoring and incident escalation."
+  ],
+  "recommended_actions": [
+    "Validate the classification against the complete current legal text and Annex III.",
+    "Assign accountable owners for governance, security, privacy, and human oversight.",
+    "Create measurable acceptance criteria and retain evidence from testing.",
+    "Coordinate the AI assessment with privacy and data-protection review."
+  ],
+  "citations": [
+    {
+      "citation_id": "S1",
+      "source_id": "eu_article_6_annex_iii",
+      "title": "EU AI Act high-risk classification",
+      "reference": "Article 6 and Annex III",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "excerpt": "Annex III includes specified uses involving biometrics; critical infrastructure; education and vocational training; employment, worker management, and access to self-employment; access to essential private and public services; law enforcement; migration, asylum, and border control; and administration of justice and democratic processes. An AI recruitment system that ranks candidates can therefore require high-risk analysis. The exact\u2026",
+      "relevance": 0.8938
+    },
+    {
+      "citation_id": "S2",
+      "source_id": "nist_govern",
+      "title": "NIST AI RMF GOVERN function",
+      "reference": "GOVERN function",
+      "source_url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+      "excerpt": "GOVERN cultivates and implements a culture of AI risk management. It connects legal and regulatory requirements, organisational principles, policies, processes, accountability, and risk tolerance to AI work across the lifecycle. Operational evidence can include named accountable executives and system owners, risk committees, escalation paths, acceptable-use rules, inventory, training, diverse stakeholder participation, review independence, documentation standards,\u2026",
+      "relevance": 0.3206
+    },
+    {
+      "citation_id": "S3",
+      "source_id": "eu_article_10",
+      "title": "Data and data-governance requirements",
+      "reference": "Article 10",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "excerpt": "Article 10 addresses training, validation, and testing data used by high-risk AI systems. Relevant data-governance and management practices should cover design choices, collection, preparation, annotation, cleaning, assumptions, provenance, suitability, and documented examination for possible biases that may affect health, safety, fundamental rights, or prohibited discrimination. Datasets should be relevant, sufficiently representative, and, to the extent\u2026",
+      "relevance": 0.2712
+    },
+    {
+      "citation_id": "S4",
+      "source_id": "eu_article_9",
+      "title": "Risk-management system for high-risk AI",
+      "reference": "Article 9",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+      "excerpt": "Article 9 requires a documented and iterative risk-management system for high-risk AI. It is not a one-time checklist. The process should run throughout the system lifecycle and be updated using testing, monitoring, incidents, and new information.",
+      "relevance": 0.2689
+    }
+  ],
+  "disclaimer": "Automated preliminary screening only. It is not legal advice or a conformity assessment. Validate against the complete current law and qualified reviewers.",
+  "trace_id": "6c71bc1de44a43fc"
+}
