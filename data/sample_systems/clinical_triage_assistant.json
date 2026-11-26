@@ -1,0 +1,17 @@
+{
+  "system_name": "TriageAssist Emergency Department Prioritisation",
+  "purpose": "Suggests a triage priority for emergency department patients from symptoms and vital signs; a nurse makes the final decision.",
+  "medical": true,
+  "safety_component": true,
+  "impacts_individuals": true,
+  "personal_data": true,
+  "public_body": true,
+  "risk_management": true,
+  "data_governance": true,
+  "technical_documentation": false,
+  "logging": true,
+  "transparency_notice": true,
+  "human_oversight": true,
+  "accuracy_testing": true,
+  "post_market_monitoring": false
+}

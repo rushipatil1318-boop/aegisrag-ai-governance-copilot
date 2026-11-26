@@ -2,7 +2,7 @@
 
 **Result:** likely high-risk
 **Confidence:** 78%
-**Trace ID:** `6c71bc1de44a43fc`
+**Trace ID:** `44781d89f32c4459`
 
 ## Triggering factors
 - employment, worker management, or access to self-employment
@@ -31,8 +31,6 @@
 
 ## Evidence register
 - [S1] [Article 6 and Annex III](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng) — EU AI Act high-risk classification
-- [S2] [GOVERN function](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/) — NIST AI RMF GOVERN function
-- [S3] [Article 10](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng) — Data and data-governance requirements
-- [S4] [Article 9](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng) — Risk-management system for high-risk AI
+- [S2] [Article 9](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng) — Risk-management system for high-risk AI
 
 > Automated preliminary screening only. It is not legal advice or a conformity assessment. Validate against the complete current law and qualified reviewers.

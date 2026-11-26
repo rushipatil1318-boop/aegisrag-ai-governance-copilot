@@ -1,9 +1,9 @@
 [
   {
     "query": "Why can an AI recruitment ranking system be high-risk?",
-    "answer": "Based on the retrieved official guidance, the main points are: - An AI recruitment system that ranks candidates can therefore require high-risk analysis. [S1]\n- The exact result depends on intended purpose, the significance of the decision, exclusions in the legal text, and current official guidance. [S1]\n- Article 9 requires a documented and iterative risk-management system for high-risk AI. [S2]\n- The process should run throughout the system lifecycle and be updated using testing, monitoring, incidents, and new information. [S2] This is an initial governance screening, not legal advice. Confirm the result with the complete official text and qualified reviewers.",
+    "answer": "Based on the retrieved official guidance, the main points are: - An AI system is high-risk when it is a safety component of a product, or is itself a product, covered by the Union harmonisation legislation in Annex I that requires third-party conformity assessment. [S1]\n- It is also high-risk when it is used in one of the areas listed in Annex III. [S1]\n- High-risk systems must be tested against metrics and probabilistic thresholds defined in advance, including where appropriate in real-world conditions. [S2]\n- Measures should eliminate or reduce risks as far as technically feasible, and the remaining residual risk must be judged acceptable. [S2]\n- MAP establishes the context in which an AI system will operate so that risks related to that context can be identified. [S3]\n- The information gathered in MAP informs decisions about whether and how to proceed. [S3] This is an initial governance screening, not legal advice. Confirm the result with the complete official text and qualified reviewers.",
     "intent": "risk_classification",
-    "confidence": 0.7656,
+    "confidence": 0.8035,
     "citations": [
       {
         "citation_id": "S1",
@@ -11,8 +11,8 @@
         "title": "EU AI Act high-risk classification",
         "reference": "Article 6 and Annex III",
         "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-        "excerpt": "Annex III includes specified uses involving biometrics; critical infrastructure; education and vocational training; employment, worker management, and access to self-employment; access to essential private and public services; law enforcement; migration, asylum, and border control; and administration of justice and democratic processes. An AI recruitment system that ranks candidates can therefore require high-risk analysis. The exact\u2026",
-        "relevance": 0.916
+        "excerpt": "An AI system is high-risk when it is a safety component of a product, or is itself a product, covered by the Union harmonisation legislation in Annex I that requires third-party conformity assessment. It is also high-risk when it is used in one of the areas listed in Annex III.",
+        "relevance": 0.8919
       },
       {
         "citation_id": "S2",
@@ -20,81 +20,90 @@
         "title": "Risk-management system for high-risk AI",
         "reference": "Article 9",
         "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-        "excerpt": "Article 9 requires a documented and iterative risk-management system for high-risk AI. It is not a one-time checklist. The process should run throughout the system lifecycle and be updated using testing, monitoring, incidents, and new information.",
-        "relevance": 0.5205
-      }
-    ],
-    "evidence_quality": "high",
-    "warnings": [],
-    "latency_ms": 1.33,
-    "provider": "offline-evidence-generator",
-    "trace_id": "d34f6f2174f0470a",
-    "refused": false
-  },
-  {
-    "query": "Which controls should be documented before deployment?",
-    "answer": "Based on the retrieved official guidance, the main points are: - Classification therefore requires the intended purpose, affected people, deployment context, and supply-chain responsibilities to be documented. [S1]\n- The same organisation can hold more than one role. [S1]\n- Operational controls can include data and model documentation, pre-deployment evaluation, adversarial testing, prompt-injection defence, retrieval-source controls, content provenance, output filtering, human review for consequential uses, incident handling, feedback channels, and ongoing measurement after deployment. [S2]\n- Grounded generation should not be assumed safe merely because it uses retrieval. [S2]\n- The process should run throughout the system lifecycle and be updated using testing, monitoring, incidents, and new information. [S3]\n- Article 9 requires a documented and iterative risk-management system for high-risk AI. [S3] This is an initial governance screening, not legal advice. Confirm the result with the complete official text and qualified reviewers.",
-    "intent": "general_governance",
-    "confidence": 0.8343,
-    "citations": [
-      {
-        "citation_id": "S1",
-        "source_id": "eu_overview",
-        "title": "EU Artificial Intelligence Act \u2014 risk-based framework overview",
-        "reference": "Regulation (EU) 2024/1689",
-        "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-        "excerpt": "Obligations depend on the organisation's role, including provider, deployer, importer, distributor, authorised representative, or product manufacturer. The same organisation can hold more than one role. Classification therefore requires the intended purpose, affected people, deployment context, and supply-chain responsibilities to be documented.",
-        "relevance": 0.821
-      },
-      {
-        "citation_id": "S2",
-        "source_id": "nist_genai_profile",
-        "title": "NIST Generative AI Profile",
-        "reference": "NIST AI 600-1",
-        "source_url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
-        "excerpt": "NIST AI 600-1 is a companion profile for applying the AI RMF to generative AI. It describes risks and actions relevant to generative systems, including confabulation, harmful or biased content, information integrity, privacy, intellectual property, security, misuse, human over-reliance, and value-chain dependencies. Operational controls can include data and model documentation, pre-deployment evaluation, adversarial testing, prompt-injection\u2026",
-        "relevance": 0.8147
+        "excerpt": "Measures should eliminate or reduce risks as far as technically feasible, and the remaining residual risk must be judged acceptable. High-risk systems must be tested against metrics and probabilistic thresholds defined in advance, including where appropriate in real-world conditions. The provider must consider whether the system is likely to affect people under 18 or other\u2026",
+        "relevance": 0.5921
       },
       {
         "citation_id": "S3",
-        "source_id": "eu_article_9",
-        "title": "Risk-management system for high-risk AI",
-        "reference": "Article 9",
-        "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-        "excerpt": "Article 9 requires a documented and iterative risk-management system for high-risk AI. It is not a one-time checklist. The process should run throughout the system lifecycle and be updated using testing, monitoring, incidents, and new information.",
-        "relevance": 0.5568
-      },
-      {
-        "citation_id": "S4",
         "source_id": "nist_map",
         "title": "NIST AI RMF MAP function",
         "reference": "MAP function",
         "source_url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
-        "excerpt": "MAP frames the AI system, its intended purposes, operational setting, stakeholders, dependencies, and potential impacts. The goal is to create enough context to identify and prioritise risks rather than measuring a model in isolation. Useful mapping evidence includes system boundaries, data and model flows, people affected, benefits, foreseeable misuse, environmental assumptions, human roles, third-party dependencies,\u2026",
-        "relevance": 0.532
-      },
-      {
-        "citation_id": "S5",
-        "source_id": "nist_govern",
-        "title": "NIST AI RMF GOVERN function",
-        "reference": "GOVERN function",
-        "source_url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
-        "excerpt": "GOVERN cultivates and implements a culture of AI risk management. It connects legal and regulatory requirements, organisational principles, policies, processes, accountability, and risk tolerance to AI work across the lifecycle. Operational evidence can include named accountable executives and system owners, risk committees, escalation paths, acceptable-use rules, inventory, training, diverse stakeholder participation, review independence, documentation standards,\u2026",
-        "relevance": 0.4973
+        "excerpt": "MAP establishes the context in which an AI system will operate so that risks related to that context can be identified. The information gathered in MAP informs decisions about whether and how to proceed.",
+        "relevance": 0.5379
       }
     ],
     "evidence_quality": "high",
     "warnings": [],
-    "latency_ms": 1.12,
+    "latency_ms": 1.89,
     "provider": "offline-evidence-generator",
-    "trace_id": "09ad9f2c435c49d5",
+    "trace_id": "13f83942e6414aa6",
+    "refused": false
+  },
+  {
+    "query": "Which controls should be documented before deployment?",
+    "answer": "Based on the retrieved official guidance, the main points are: - Systems that keep learning after deployment should reduce the risk of biased outputs feeding back into future inputs. [S1]\n- Systems should be as resilient as possible to errors, faults and inconsistencies, for example through technical redundancy and fail-safe plans. [S1]\n- The intended purposes, potentially beneficial uses, context-specific laws, norms and expectations, and the prospective deployment settings are understood and documented. [S2]\n- The AI system is categorised, and its capabilities, targeted usage, goals and expected benefits and costs are compared with appropriate benchmarks. [S2]\n- Suggested actions include pre-deployment testing and red-teaming, evaluating retrieval and grounding quality, tracking content provenance, monitoring after deployment, and having incident-disclosure and response processes. [S3]\n- Strategies to maximise benefits and minimise negative impacts are planned, prepared, implemented and documented, including mechanisms to supersede, disengage or deactivate systems that perform inconsistently with their intended use. [S4]\n- Risk treatments, including response and recovery plans, are documented and monitored regularly, and incidents and errors are communicated to relevant AI actors and affected communities. [S4] This is an initial governance screening, not legal advice. Confirm the result with the complete official text and qualified reviewers.",
+    "intent": "general_governance",
+    "confidence": 0.776,
+    "citations": [
+      {
+        "citation_id": "S1",
+        "source_id": "eu_article_15",
+        "title": "Accuracy, robustness and cybersecurity",
+        "reference": "Article 15",
+        "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+        "excerpt": "Systems should be as resilient as possible to errors, faults and inconsistencies, for example through technical redundancy and fail-safe plans. Systems that keep learning after deployment should reduce the risk of biased outputs feeding back into future inputs.",
+        "relevance": 0.735
+      },
+      {
+        "citation_id": "S2",
+        "source_id": "nist_map",
+        "title": "NIST AI RMF MAP function",
+        "reference": "MAP function",
+        "source_url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+        "excerpt": "The intended purposes, potentially beneficial uses, context-specific laws, norms and expectations, and the prospective deployment settings are understood and documented. The AI system is categorised, and its capabilities, targeted usage, goals and expected benefits and costs are compared with appropriate benchmarks. Risks and benefits are mapped for all components of the system, including third-party software\u2026",
+        "relevance": 0.6724
+      },
+      {
+        "citation_id": "S3",
+        "source_id": "nist_genai_profile",
+        "title": "NIST Generative AI Profile",
+        "reference": "NIST AI 600-1",
+        "source_url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+        "excerpt": "Suggested actions include pre-deployment testing and red-teaming, evaluating retrieval and grounding quality, tracking content provenance, monitoring after deployment, and having incident-disclosure and response processes.",
+        "relevance": 0.6542
+      },
+      {
+        "citation_id": "S4",
+        "source_id": "nist_manage",
+        "title": "NIST AI RMF MANAGE function",
+        "reference": "MANAGE function",
+        "source_url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+        "excerpt": "AI risks identified through MAP and MEASURE are prioritised and responded to based on their projected impact. Responses can mitigate, transfer, avoid or accept a risk. Strategies to maximise benefits and minimise negative impacts are planned, prepared, implemented and documented, including mechanisms to supersede, disengage or deactivate systems that perform inconsistently with their intended use.\u2026",
+        "relevance": 0.4935
+      },
+      {
+        "citation_id": "S5",
+        "source_id": "nist_measure",
+        "title": "NIST AI RMF MEASURE function",
+        "reference": "MEASURE function",
+        "source_url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+        "excerpt": "Appropriate methods and metrics are identified and applied, starting with the most significant risks. AI systems are evaluated for trustworthy characteristics such as validity, reliability, safety, security and resilience, transparency, explainability, privacy and fairness. Test, evaluation, verification and validation (TEVV) is documented, including the test sets, metrics and tools used and the conditions of testing.\u2026",
+        "relevance": 0.3278
+      }
+    ],
+    "evidence_quality": "high",
+    "warnings": [],
+    "latency_ms": 1.51,
+    "provider": "offline-evidence-generator",
+    "trace_id": "6372afa7848f44b6",
     "refused": false
   },
   {
     "query": "How should a team measure and manage AI risk using the NIST AI RMF?",
-    "answer": "Based on the retrieved official guidance, the main points are: - The core is organised around four functions: GOVERN, MAP, MEASURE, and MANAGE. [S1]\n- The NIST AI Risk Management Framework 1.0 is voluntary guidance for organisations that design, develop, deploy, or use AI. [S1]\n- New evidence should flow back into GOVERN, MAP, and MEASURE. [S2]\n- MANAGE allocates resources to identified and measured risks, implements treatment plans, tracks response, and decides whether residual risk is acceptable. [S2]\n- MEASURE uses qualitative and quantitative methods to analyse, assess, benchmark, and monitor AI risk and trustworthiness. [S3]\n- Measurement choices should follow the mapped context and cover relevant people, operating conditions, uncertainty, limitations, and trade-offs. [S3] This is an initial governance screening, not legal advice. Confirm the result with the complete official text and qualified reviewers.",
+    "answer": "Based on the retrieved official guidance, the main points are: - The core organises AI risk-management activities into four functions: GOVERN, MAP, MEASURE and MANAGE. [S1]\n- MAP establishes context, MEASURE assesses and tracks risks, and MANAGE prioritises and acts on them. [S1]\n- MEASURE uses quantitative, qualitative or mixed methods to analyse, assess, benchmark and monitor AI risk and related impacts, using the knowledge gained in MAP. [S2]\n- The Generative AI Profile (NIST AI 600-1, July 2024) is a companion resource to the AI RMF. [S3]\n- It helps organisations identify risks that are unique to or made worse by generative AI and suggests actions organised by the GOVERN, MAP, MEASURE and MANAGE functions. [S3]\n- MANAGE allocates risk resources to the mapped and measured risks on a regular basis, as defined by GOVERN. [S4]\n- It covers the plans to respond to, recover from and communicate about incidents or events. [S4] This is an initial governance screening, not legal advice. Confirm the result with the complete official text and qualified reviewers.",
     "intent": "risk_classification",
-    "confidence": 0.8724,
+    "confidence": 0.8382,
     "citations": [
       {
         "citation_id": "S1",
@@ -102,51 +111,42 @@
         "title": "NIST AI Risk Management Framework 1.0 core",
         "reference": "AI RMF 1.0",
         "source_url": "https://www.nist.gov/itl/ai-risk-management-framework",
-        "excerpt": "The NIST AI Risk Management Framework 1.0 is voluntary guidance for organisations that design, develop, deploy, or use AI. It helps manage risks to individuals, organisations, and society and is intended to be practical, adaptable, and technology neutral. The core is organised around four functions: GOVERN, MAP, MEASURE, and MANAGE. GOVERN is cross-cutting and supports\u2026",
-        "relevance": 0.9148
+        "excerpt": "The core organises AI risk-management activities into four functions: GOVERN, MAP, MEASURE and MANAGE. GOVERN is cross-cutting and informs the other three. MAP establishes context, MEASURE assesses and tracks risks, and MANAGE prioritises and acts on them. The functions are applied iteratively across the AI lifecycle.",
+        "relevance": 0.8645
       },
       {
         "citation_id": "S2",
-        "source_id": "nist_manage",
-        "title": "NIST AI RMF MANAGE function",
-        "reference": "MANAGE function",
-        "source_url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
-        "excerpt": "MANAGE allocates resources to identified and measured risks, implements treatment plans, tracks response, and decides whether residual risk is acceptable. Responses can include mitigation, avoidance, transfer, acceptance under authority, restricted use, additional monitoring, or system retirement. Action plans should identify owners, deadlines, dependencies, success criteria, residual risk, escalation conditions, and evidence of completion. Higher-severity risks\u2026",
-        "relevance": 0.5997
-      },
-      {
-        "citation_id": "S3",
         "source_id": "nist_measure",
         "title": "NIST AI RMF MEASURE function",
         "reference": "MEASURE function",
         "source_url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
-        "excerpt": "MEASURE uses qualitative and quantitative methods to analyse, assess, benchmark, and monitor AI risk and trustworthiness. Measurement choices should follow the mapped context and cover relevant people, operating conditions, uncertainty, limitations, and trade-offs. An evaluation plan can include validity and reliability, safety, security, privacy, transparency, explainability, fairness, subgroup performance, robustness, calibration, human factors, and incident\u2026",
-        "relevance": 0.5165
+        "excerpt": "MEASURE uses quantitative, qualitative or mixed methods to analyse, assess, benchmark and monitor AI risk and related impacts, using the knowledge gained in MAP.",
+        "relevance": 0.8259
+      },
+      {
+        "citation_id": "S3",
+        "source_id": "nist_genai_profile",
+        "title": "NIST Generative AI Profile",
+        "reference": "NIST AI 600-1",
+        "source_url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+        "excerpt": "The Generative AI Profile (NIST AI 600-1, July 2024) is a companion resource to the AI RMF. It helps organisations identify risks that are unique to or made worse by generative AI and suggests actions organised by the GOVERN, MAP, MEASURE and MANAGE functions.",
+        "relevance": 0.6797
       },
       {
         "citation_id": "S4",
-        "source_id": "nist_map",
-        "title": "NIST AI RMF MAP function",
-        "reference": "MAP function",
+        "source_id": "nist_manage",
+        "title": "NIST AI RMF MANAGE function",
+        "reference": "MANAGE function",
         "source_url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
-        "excerpt": "MAP frames the AI system, its intended purposes, operational setting, stakeholders, dependencies, and potential impacts. The goal is to create enough context to identify and prioritise risks rather than measuring a model in isolation. Useful mapping evidence includes system boundaries, data and model flows, people affected, benefits, foreseeable misuse, environmental assumptions, human roles, third-party dependencies,\u2026",
-        "relevance": 0.4502
-      },
-      {
-        "citation_id": "S5",
-        "source_id": "eu_article_9",
-        "title": "Risk-management system for high-risk AI",
-        "reference": "Article 9",
-        "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-        "excerpt": "Article 9 requires a documented and iterative risk-management system for high-risk AI. It is not a one-time checklist. The process should run throughout the system lifecycle and be updated using testing, monitoring, incidents, and new information.",
-        "relevance": 0.3811
+        "excerpt": "MANAGE allocates risk resources to the mapped and measured risks on a regular basis, as defined by GOVERN. It covers the plans to respond to, recover from and communicate about incidents or events.",
+        "relevance": 0.6279
       }
     ],
     "evidence_quality": "high",
     "warnings": [],
-    "latency_ms": 5.41,
+    "latency_ms": 1.66,
     "provider": "offline-evidence-generator",
-    "trace_id": "eac55df3e93e4d6a",
+    "trace_id": "23440deec3934112",
     "refused": false
   }
 ]

@@ -34,37 +34,19 @@
       "title": "EU AI Act high-risk classification",
       "reference": "Article 6 and Annex III",
       "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "excerpt": "Annex III includes specified uses involving biometrics; critical infrastructure; education and vocational training; employment, worker management, and access to self-employment; access to essential private and public services; law enforcement; migration, asylum, and border control; and administration of justice and democratic processes. An AI recruitment system that ranks candidates can therefore require high-risk analysis. The exact\u2026",
-      "relevance": 0.8938
+      "excerpt": "Annex III covers biometrics, critical infrastructure, education and vocational training, employment and worker management, access to essential private and public services, law enforcement, migration, asylum and border control, and the administration of justice and democratic processes. For employment this includes systems used to recruit or select people, for example to place targeted job advertisements, analyse\u2026",
+      "relevance": 0.8964
     },
     {
       "citation_id": "S2",
-      "source_id": "nist_govern",
-      "title": "NIST AI RMF GOVERN function",
-      "reference": "GOVERN function",
-      "source_url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
-      "excerpt": "GOVERN cultivates and implements a culture of AI risk management. It connects legal and regulatory requirements, organisational principles, policies, processes, accountability, and risk tolerance to AI work across the lifecycle. Operational evidence can include named accountable executives and system owners, risk committees, escalation paths, acceptable-use rules, inventory, training, diverse stakeholder participation, review independence, documentation standards,\u2026",
-      "relevance": 0.3206
-    },
-    {
-      "citation_id": "S3",
-      "source_id": "eu_article_10",
-      "title": "Data and data-governance requirements",
-      "reference": "Article 10",
-      "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "excerpt": "Article 10 addresses training, validation, and testing data used by high-risk AI systems. Relevant data-governance and management practices should cover design choices, collection, preparation, annotation, cleaning, assumptions, provenance, suitability, and documented examination for possible biases that may affect health, safety, fundamental rights, or prohibited discrimination. Datasets should be relevant, sufficiently representative, and, to the extent\u2026",
-      "relevance": 0.2712
-    },
-    {
-      "citation_id": "S4",
       "source_id": "eu_article_9",
       "title": "Risk-management system for high-risk AI",
       "reference": "Article 9",
       "source_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
-      "excerpt": "Article 9 requires a documented and iterative risk-management system for high-risk AI. It is not a one-time checklist. The process should run throughout the system lifecycle and be updated using testing, monitoring, incidents, and new information.",
-      "relevance": 0.2689
+      "excerpt": "Providers of high-risk AI systems must establish, implement, document and maintain a risk-management system. It is a continuous, iterative process that runs through the entire lifecycle of the system and is regularly reviewed and updated.",
+      "relevance": 0.4097
     }
   ],
   "disclaimer": "Automated preliminary screening only. It is not legal advice or a conformity assessment. Validate against the complete current law and qualified reviewers.",
-  "trace_id": "6c71bc1de44a43fc"
+  "trace_id": "44781d89f32c4459"
 }

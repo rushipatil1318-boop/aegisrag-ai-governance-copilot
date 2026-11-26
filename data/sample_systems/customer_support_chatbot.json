@@ -1,0 +1,16 @@
+{
+  "system_name": "HelpDesk Customer Support Chatbot",
+  "purpose": "Answers customer questions about orders, deliveries and returns on a retailer's website.",
+  "public_interaction": true,
+  "generative_ai": true,
+  "impacts_individuals": false,
+  "personal_data": true,
+  "risk_management": true,
+  "data_governance": true,
+  "technical_documentation": true,
+  "logging": true,
+  "transparency_notice": false,
+  "human_oversight": true,
+  "accuracy_testing": false,
+  "post_market_monitoring": true
+}

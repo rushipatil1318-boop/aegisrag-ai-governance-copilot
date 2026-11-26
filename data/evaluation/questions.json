@@ -1,0 +1,133 @@
+[
+  {
+    "id": "q01",
+    "question": "What is required from the risk-management process for a high-risk AI system?",
+    "expected_source_ids": [
+      "eu_article_9"
+    ],
+    "expected_keywords": [
+      "continuous",
+      "lifecycle",
+      "foreseeable",
+      "residual",
+      "testing"
+    ]
+  },
+  {
+    "id": "q02",
+    "question": "Why can an AI system that ranks job applicants be classified as high-risk?",
+    "expected_source_ids": [
+      "eu_article_6_annex_iii"
+    ],
+    "expected_keywords": [
+      "Annex III",
+      "employment",
+      "recruit",
+      "candidates"
+    ]
+  },
+  {
+    "id": "q03",
+    "question": "Which data-governance controls matter for training a high-risk AI model?",
+    "expected_source_ids": [
+      "eu_article_10"
+    ],
+    "expected_keywords": [
+      "representative",
+      "bias",
+      "annotation",
+      "data gaps"
+    ]
+  },
+  {
+    "id": "q04",
+    "question": "What should human oversight allow a person to do?",
+    "expected_source_ids": [
+      "eu_articles_13_14"
+    ],
+    "expected_keywords": [
+      "monitor",
+      "automation bias",
+      "override",
+      "stop"
+    ]
+  },
+  {
+    "id": "q05",
+    "question": "What transparency duties may apply when a chatbot interacts with customers?",
+    "expected_source_ids": [
+      "eu_article_50"
+    ],
+    "expected_keywords": [
+      "informed",
+      "interacting",
+      "AI system",
+      "synthetic"
+    ]
+  },
+  {
+    "id": "q06",
+    "question": "How does the NIST AI RMF organise AI risk management activities?",
+    "expected_source_ids": [
+      "nist_core"
+    ],
+    "expected_keywords": [
+      "GOVERN",
+      "MAP",
+      "MEASURE",
+      "MANAGE"
+    ]
+  },
+  {
+    "id": "q07",
+    "question": "What evidence should an AI evaluation and measurement plan contain?",
+    "expected_source_ids": [
+      "nist_measure"
+    ],
+    "expected_keywords": [
+      "metrics",
+      "test",
+      "documented",
+      "track"
+    ]
+  },
+  {
+    "id": "q08",
+    "question": "Which risks should a team test in a retrieval-augmented generative AI application?",
+    "expected_source_ids": [
+      "nist_genai_profile"
+    ],
+    "expected_keywords": [
+      "confabulation",
+      "prompt injection",
+      "information security",
+      "red-teaming"
+    ]
+  },
+  {
+    "id": "q09",
+    "question": "Why are technical documentation and automatic event logs important?",
+    "expected_source_ids": [
+      "eu_articles_11_12"
+    ],
+    "expected_keywords": [
+      "traceability",
+      "logs",
+      "post-market monitoring",
+      "Annex IV"
+    ]
+  },
+  {
+    "id": "q10",
+    "question": "How should an organisation respond after identifying and measuring an AI risk?",
+    "expected_source_ids": [
+      "nist_manage"
+    ],
+    "expected_keywords": [
+      "prioritised",
+      "mitigate",
+      "transfer",
+      "response"
+    ]
+  }
+]

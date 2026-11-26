@@ -64,10 +64,10 @@ The repository contains a reproducible ten-question evaluation set. The committe
 | Metric | Result |
 |---|---:|
 | Retrieval Recall@5 | **100%** |
-| Mean Reciprocal Rank | **1.00** |
+| Mean Reciprocal Rank | **0.95** |
 | Citation coverage | **100%** |
-| Answer keyword coverage | **67.5%** |
-| Average retrieval confidence | **82.4%** |
+| Answer keyword coverage | **49.0%** |
+| Average retrieval confidence | **78.1%** |
 | Automated tests | **16/16 passed** |
 
 The offline generator prioritises deterministic evidence extraction over fluent wording. An external or local LLM can improve answer synthesis while the same retrieval and citation controls remain active.

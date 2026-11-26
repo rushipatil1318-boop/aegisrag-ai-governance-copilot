@@ -1,0 +1,16 @@
+{
+  "system_name": "TalentMatch Candidate Ranking Assistant",
+  "purpose": "Ranks job applicants for recruiters by comparing CVs with the requirements of a vacancy.",
+  "employment": true,
+  "impacts_individuals": true,
+  "personal_data": true,
+  "public_body": false,
+  "risk_management": false,
+  "data_governance": false,
+  "technical_documentation": true,
+  "logging": false,
+  "transparency_notice": true,
+  "human_oversight": true,
+  "accuracy_testing": false,
+  "post_market_monitoring": false
+}
